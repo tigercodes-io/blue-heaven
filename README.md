@@ -1,2 +1,6 @@
-# blue-heaven git init git add README.md git commit -m first commit git branch -M main git remote add origin https://github.com/tigercodes-io/blue-heaven.git git push -u origin main
-# blue-heaven
+# Projeto do Curso Front End para Iniciantes
+## Blue Heaven
+
+Dê uma olhada no projeto [https://tigercodes-io.github.io/blue-heaven](clicando aqui).
+
+Saiba mais em [https://www.tigercodes.com.br](tigercodes.com.br).
