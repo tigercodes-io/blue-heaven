@@ -1,0 +1,88 @@
+/* SOBRE */
+
+.sobre {
+  background: url("../img/bg-sobre.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 0px;
+}
+
+/* MISSÃO, VISÃO E VALORES */
+
+.mvv {
+  width: 100%;
+  background: var(--blue-1);
+}
+
+.mvv-lista {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  text-align: center;
+}
+
+.mvv-lista li {
+  background: #fff;
+  padding: 1rem 2rem 2rem 2rem;
+  border: 1px solid var(--white-3);
+  border-radius: 5px;
+}
+
+.mvv-lista h2 {
+  font-size: 1.5rem;
+  color: var(--blue-3);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.mvv-lista h2::before {
+  content: "";
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  background: url("../img/missao.svg") no-repeat center center;
+  margin: 0 auto 0.25rem auto;
+}
+
+.mvv-lista li:nth-child(2) h2::before {
+  background: url("../img/visao.svg") no-repeat center center;
+}
+
+.mvv-lista li:nth-child(3) h2::before {
+  background: url("../img/valores.svg") no-repeat center center;
+}
+
+.mvv-lista p {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* DEPOIMENTOS */
+
+.depoimentos {
+  text-align: center;
+}
+
+.depoimentos p,
+.depoimentos .cta {
+  margin-top: 1rem;
+}
+
+/* AGENDE */
+
+.agende {
+  width: 100%;
+  background: url("../img/bg-agende.jpg") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+}
+
+.agende .titulo,
+.agende p {
+  color: #fff;
+}
+
+.agende p {
+  max-width: 300px;
+  margin: 0 auto;
+  font-style: italic;
+}

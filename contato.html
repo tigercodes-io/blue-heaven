@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Blue Heaven | Contato</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="description" content="Agende salto de paraquedas, voo de asa-delta e passeio de balão." />
+  <meta property="og:title" content="Blue Heaven | Contato" />
+  <meta property="og:description" content="Agende salto de paraquedas, voo de asa-delta e passeio de balão." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.tigercodes.com.br/projetos/blue-heaven/" />
+  <meta property="og:image" content="https://www.tigercodes.com.br/projetos/blue-heaven/img/og-blue-heaven.png" />
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="container header-container">
+      <a href="./"><img src="img/blue-heaven.svg" alt="Blue Heaven"></a>
+      <button data-menu="hamburguer" aria-controls="menu">Menu</button>
+      <ul data-menu="lista" id="menu">
+        <li><a href="./">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="passeios.html">Passeios</a></li>
+        <li><a class="ativo" href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="main contato">
+    <div class="container">
+      <h1>Contato</h1>
+      <p>Agende passeios. Envie sua mensagem.</p>
+    </div>
+  </section>
+  <section class="container wpp" data-animate="scroll">
+    <h1 class="titulo">Agende pelo WhatsApp</h1>
+    <div class="wpp-box">
+      <img src="img/whatsapp-logo.svg" alt="WhatsApp Blue Heaven">
+      <p>Você sabia? Nós também agendamos passeios e realizamos atendimento direto pelo WhatsApp. É simples, é rápido, é fácil.</p>
+    </div>
+    <a class="cta" href="https://api.whatsapp.com/send?phone=5511999999999&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Blue%20Heaven" target="_blank">Enviar WhatsApp</a>
+  </section>
+  <section class="atendimento">
+    <div class="container" data-animate="scroll">
+      <h1 class="titulo">Atendimento personalizado</h1>
+      <div class="atendimento-container">
+        <form method="POST" action="./send.php" class="form formjs">
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id="nome" required>
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email" required>
+          <label for="passeio">Passeio</label>
+          <div class="select">
+            <select name="passeio" id="passeio" required>
+              <option value="" disabled selected hidden></option>
+              <option value="paraquedas">Paraquedas</option>
+              <option value="asa-delta">Asa-delta</option>
+              <option value="balonismo">Balonismo</option>
+            </select>
+          </div>
+          <label for="mensagem">Mensagem</label>
+          <textarea name="mensagem" id="mensagem" required></textarea>
+          <button class="cta" type="submit" name="enviar" id="enviar">Enviar</button>
+        </form>
+        <div class="dados">
+          <h2>Fale com a gente</h2>
+          <ul>
+            <li><a href="tel:+5511999999999">+55 (11) 99999-9999</a></li>
+            <li><a href="mailto:contato@blueheaven.com">contato@blueheaven.com</a></li>
+          </ul>
+          <h2>Siga-nos nas redes sociais</h2>
+          <ul>
+            <li><a href="https://www.facebook.com" target="_blank">facebook.com</a></li>
+            <li><a href="https://www.instagram.com" target="_blank">instagram.com</a></li>
+            <li><a href="https://www.youtube.com" target="_blank">youtube.com</a></li>
+          </ul>
+          <h2>Faça uma visita</h2>
+          <p>Rua Céu Azul, 123<br />
+            Bairro das Nuvens - São Paulo - SP<br />
+            CEP 12345-678
+          </p>
+          <h2>Sobre nós</h2>
+          <p>A Blue Heaven surgiu de um dos mais antigos sonhos da humanidade: o de poder voar. Ainda que não tivéssemos asas, nós queríamos usar a nossa imaginação e criatividade para juntos poder construir equipamentos seguros que possibilitassem tornar o sonho de se aventurar pelo céu, uma realidade. E foi isso o que fizemos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container mapa" data-animate="scroll">
+    <h1 class="titulo">Visualizar no mapa</h1>
+    <p>Clique sobre o mapa para abrir no aplicativo Google Maps.</p>
+    <a href="https://www.google.com" target="_blank"><img src="img/mapa.jpg" alt="Mapa Blue Heaven"></a>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer-container">
+        <li>
+          <h2>Localização</h2>
+          <p>
+            Rua Céu Azul, 123<br />
+            Bairro das Nuvens<br />
+            São Paulo - SP
+          </p>
+          <a href="https://www.google.com/" target="_blank">Clique aqui para abrir no mapa.</a>
+        </li>
+        <li>
+          <h2>Mapa do site</h2>
+          <ul class="mapa-do-site">
+            <li><a href="./">- Home</a></li>
+            <li><a href="sobre.html">- Sobre</a></li>
+            <li><a href="passeios.html">- Passeios</a></li>
+            <li><a href="contato.html">- Contato</a></li>
+            <li><a href="trabalhe-conosco.php">- Trabalhe Conosco</a></li>
+          </ul>
+        </li>
+        <li>
+          <h2>Contato</h2>
+          <ul class="footer-contato">
+            <li><a href="tel:+5511999999999">+55 (11) 99999-9999</a></li>
+            <li><a href="mailto:contato@blueheaven.com">contato@blueheaven.com</a></li>
+          </ul>
+        </li>
+        <li>
+          <h2>Redes sociais</h2>
+          <ul class="redes-sociais">
+            <li><a href="https://www.facebook.com" target="_blank"><img src="img/facebook.svg" alt="Facebook Blue Heaven"></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><img src="img/instagram.svg" alt="Instagram Blue Heaven"></a></li>
+            <li><a href="https://www.whatsapp.com" target="_blank"><img src="img/whatsapp.svg" alt="WhatsApp Blue Heaven"></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><img src="img/youtube.svg" alt="YouTube Blue Heaven"></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="copyright">
+      <p>Copyright © 2020 Blue Heaven. Todos os direitos reservados.</p>
+      <p>Este site é um projeto Tiger Codes. Mais informações em tigercodes.com.br</p>
+    </div>
+  </footer>
+  <script src="./js/script.js" type="module"></script>
+</body>
+
+</html>

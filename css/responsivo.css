@@ -1,0 +1,125 @@
+/* RESPONSIVO */
+
+@media only screen and (max-width: 750px) {
+  .passeios-home-lista,
+  .depoimentos-lista,
+  .galeria-lista,
+  .sobre-container,
+  .footer-container,
+  .mvv-lista,
+  .passeios-container,
+  .atendimento-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .main,
+  .sobre,
+  .passeios,
+  .contato,
+  .trabalhe-conosco {
+    height: 400px;
+  }
+
+  .main {
+    background: url("../img/bg-home-mobile.jpg") no-repeat center center;
+  }
+
+  .sobre {
+    background: url("../img/bg-sobre-mobile.jpg") no-repeat center center;
+  }
+
+  .passeios {
+    background: url("../img/bg-passeios-mobile.jpg") no-repeat center center;
+  }
+
+  .contato {
+    background: url("../img/bg-contato-mobile.jpg") no-repeat center center;
+  }
+
+  .trabalhe-conosco {
+    background: url("../img/bg-trabalhe-conosco-mobile.jpg") no-repeat center
+      center;
+  }
+
+  .passeios-home-lista li {
+    max-width: 388px;
+  }
+
+  .passeios-home-lista p {
+    padding: 1rem;
+  }
+
+  .depoimentos-lista {
+    padding: 0px;
+  }
+
+  .sobre-quote {
+    margin-top: 2rem;
+  }
+
+  .footer-container {
+    justify-items: start;
+    gap: 2rem;
+  }
+
+  .footer-container > li + li {
+    width: 100%;
+    padding-left: 0px;
+    border-left: none;
+    padding-top: 2rem;
+    border-top: 1px solid var(--black-1);
+  }
+
+  .passeios-container {
+    gap: 2rem;
+  }
+
+  .info {
+    text-align: center;
+    max-width: 592px;
+  }
+
+  .wpp-box {
+    gap: 1rem;
+  }
+
+  .atendimento-container {
+    gap: 2rem;
+  }
+
+  .dados h2 {
+    font-size: 1.125rem;
+  }
+
+  .dados a,
+  .dados p,
+  .mapa p {
+    font-size: 0.875rem;
+  }
+
+  @media only screen and (max-width: 400px) {
+    .main h1 {
+      font-size: 1.5rem;
+    }
+
+    .titulo {
+      font-size: 1.125rem;
+    }
+
+    .depoimentos-lista li,
+    .wpp-box {
+      grid-template-columns: 1fr;
+      justify-items: center;
+      text-align: center;
+    }
+
+    .form {
+      padding: 1rem;
+    }
+
+    .form .cta {
+      margin-top: 1rem;
+    }
+  }
+}

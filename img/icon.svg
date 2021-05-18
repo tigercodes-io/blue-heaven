@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <g id="icon" transform="translate(-554 -1372)">
+    <rect id="bg" width="150" height="150" transform="translate(554 1372)" fill="#a0d3fd"/>
+    <g id="avatar" transform="translate(587.75 1405)">
+      <path id="body" d="M41.25,0C64.032,0,82.5,12.984,82.5,24.375S64.032,41.25,41.25,41.25,0,35.766,0,24.375,18.468,0,41.25,0Z" transform="translate(0 43.5)" fill="#39e"/>
+      <path id="head" d="M18.75,0A18.75,18.75,0,1,1,0,18.75,18.75,18.75,0,0,1,18.75,0Z" transform="translate(22.5)" fill="#39e"/>
+    </g>
+  </g>
+</svg>

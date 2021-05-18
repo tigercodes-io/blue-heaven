@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="8" viewBox="0 0 16 8">
+  <path id="arrow" d="M8,0l8,8H0Z" transform="translate(16 8) rotate(180)" fill="#dcddde"/>
+</svg>

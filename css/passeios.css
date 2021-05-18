@@ -1,0 +1,74 @@
+/* PASSEIOS */
+
+.passeios {
+  background: url("../img/bg-passeios.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 0px;
+}
+
+.passeios-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.passeios-container img {
+  border-radius: 5px;
+}
+
+.info h2 {
+  font-size: 1.125rem;
+  color: var(--green-1);
+  text-transform: uppercase;
+}
+
+.info p {
+  margin: 1rem 0 2rem 0;
+}
+
+.info ul {
+  border: 1px solid var(--white-3);
+  border-radius: 5px;
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
+.info li:first-child {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px 5px 0 0;
+}
+
+.info li {
+  background: var(--white-1);
+  padding: 0.5rem 1rem;
+  line-height: 1.5;
+}
+
+.info li:last-child {
+  border-radius: 0 0 5px 5px;
+  padding-bottom: 1rem;
+}
+
+.info li:nth-child(odd) {
+  background: #fff;
+}
+
+.info li + li {
+  border-top: 1px solid var(--white-3);
+}
+
+.asa-delta {
+  background: var(--white-2);
+}
+
+/* GALERIA */
+
+.galeria {
+  width: 100%;
+  background: var(--white-2);
+  text-align: center;
+}
